@@ -68,11 +68,13 @@ nav {
 .randomBeerpage {
     display: flex;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 80px;
+    text-align: justify;
     
 }
 #randomBeerTextline {
     margin-top: 20px;
+    margin-right: 600px;
 }
 
 #foodPairing {

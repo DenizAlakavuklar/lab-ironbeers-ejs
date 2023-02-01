@@ -4,7 +4,13 @@
     <h4><%=randomBeer[0].tagline%></h4>
     <p><%=randomBeer[0].description%></p>
     <h4><%="Food Pairing"%></h4>
-    <li id="foodPairing"><%=randomBeer[0].food_pairing%></li>
+    <ul>
+        <% for (i = 0; i < randomBeer[0].food_pairing.length; i++) { %>
+            <li> <%= randomBeer[0].food_pairing[i] %> </li>
+        <% } %>
+    </ul>
     <h4><%="Brewers Tips"%></h4>
     <p><%=randomBeer[0].brewers_tips%></p> </section>
+   
 </div>
+
